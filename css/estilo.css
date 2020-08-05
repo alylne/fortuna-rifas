@@ -1,0 +1,1244 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+body {
+    padding-top: 20px; /* Altura do menu */
+    font-family: Verdana,Tahoma,Arial;
+}
+
+.logo{
+    width: 30%;
+    position: fixed;
+    padding: 5px 0px;
+}
+
+.menu {
+    background-color:  #f5f5f0;
+    text-align: center;
+    overflow: hidden;
+    height: 65px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.menu ul button {
+  text-transform: uppercase;
+  border: 3px double #FFFFFF;
+  width: 100px;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.menu ul button:hover {
+  background: #E6E6E6;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    line-height: 35px;
+    color: #000000;
+    padding: 50px 50px;
+    text-decoration: none;
+    width: 70%;
+}
+.menu ul li a:hover {
+    background: #fff;
+    font-weight: bold;
+    transition: 0.7s;
+}
+.main {
+    padding: 50px;
+}
+.carousel-cell {
+    width: 100%;
+}
+.w3-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/* cell number */
+.carousel-cell:before {
+    display: block;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #eff0f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Botoes da rifa */
+
+.btn_legend{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.legend, .legend a, .legend a:hover {
+    text-decoration: none;
+    color: #3d3d29;
+    position: relative;
+    display: inline-table;
+    font-size: 13px;
+    height: 40px;
+    margin: 15px 10px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid;
+    width: 240px;
+}
+
+
+/* btn regulation e page regulation */
+
+.btn_regulamento{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.btn_regulamento a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.btn_regulamento a:hover{
+  background-color: #b3ff99;
+}
+
+.img_regulamento{
+  width: 25px;
+  height: 25px;
+}
+
+.regulation-page h2{
+  background-color: #F2F2F2;
+  font-size: 17px;
+  color: #0B0B61;
+  font-weight: bold;
+}
+
+.regulation-page {
+  width: 850px;
+  position: relative;
+  font-size: 14px;
+  z-index: 1;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.regulation-page button:hover {
+  background: #43A047;
+}
+
+.regulation-page button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 7px;
+  color: #FFFFFF;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+/* rifa numbers */
+
+.rifa_table .rifa_number {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-table;
+    width: 50px;
+    height: 50px;
+    margin: 3px 2px 3px 1px;
+    z-index: 10;
+    font-weight: bold;
+    font: 15px Verdana,Tahoma,Arial;
+    line-height: normal;
+    text-align: center;
+    line-height: 44px;
+    background-color: #fff;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+.rifa_number.item_pago {
+    border-color: #80D56B;
+    background-color: #7DD169;
+}
+
+.rifa_number.item_reservado {
+    border-color: #F9F16D;
+    background-color: #FFF76E;
+}
+
+.rifa_number.item_disponivel {
+    border-color: #5c5c3d;
+    background-color: #FFFFFF;
+}
+
+.rifa_number.item_all {
+    border-color: #5c5c3d;
+    background-color: #ebebe0;
+}
+
+
+
+
+/* botao reservar */
+
+.reserved {
+    margin-top: 20px;
+    z-index: 10;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn, .btn-lg{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.box_btn_reserved a {
+    text-decoration: none;
+}
+
+
+
+
+/*login */
+
+.login-page {
+  width: 500px;
+  padding: 3% 0 0;
+  margin: auto;
+}
+
+.form h2{
+  font-size: 30px;
+  color: #0B0B61;
+  font-weight: bold;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.form select {
+  background: #f2f2f2;
+  width: 100%;zzzz
+  border: 0;
+  margin: 0 0 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.login-page button:hover {
+  background: #43A047;
+}
+
+.login-form{
+  width: 100%;
+}
+
+.register-form{
+  width: 100%;
+}
+
+.login-page button {
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+/* index */
+
+.cont_rifas {
+  width: 30%;
+  padding: 5px;
+  margin: 10px;
+  background: #F2F2F2;
+  display: inline-block;
+}
+
+.content h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+
+.cont_rifas h2{
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  color: #0B0B61;
+}
+
+.cont_rifas h5{
+  font-size: 12px;
+  margin: 0px 0px 5px 0px;
+}
+
+.box_num{
+  display: inline-block;
+    padding: 5px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #FAFAFA;
+}
+
+.cont_rifas .reservar button {
+  text-transform: uppercase;
+  background: #4CAF50;
+  border: 0;
+  width: 90%;
+  margin: 10px;
+  padding: 7px 40px;
+  color: #FFFFFF;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.reservar button:hover{
+  background: #43A047
+}
+
+.img_rifa{
+  margin-top: 10px;
+  width: 300px;
+  height: 220px;
+  border: 4px double #FFFFFF;
+}
+
+
+
+/* page adm */
+
+.cont_adm .lista button {
+  text-transform: uppercase;
+  background: #4CAF50;
+  border: 0;
+  width: 50%;
+  margin: 10px;
+  padding: 10px 40px;
+  color: #FFFFFF;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cont_adm .lista button:hover{
+  background: #43A047
+}
+
+.cont_adm {
+  width: 90%;
+  padding: 10px;
+  margin: 3%;
+  background: #FFF;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cont_adm .divisoria{
+  width: 90%;
+  margin: 5px;
+  border: 1px solid #FFBF00;
+}
+
+.header_adm{
+  display: block;
+}
+
+.header_adm button{
+  border: 0;
+  width: 15%;
+  margin: 2px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;  
+}
+/* lista de adms */
+
+.list_adm{
+  width: 45%;
+  display: inline-block;
+  background: #F2F2F2;
+  margin: 5px;
+  font-size: 13px;
+  border: 1px solid #A4A4A4;
+}
+
+.list_adm h3{
+  color: #0B0B61;
+  font-weight: bold;
+  background: white;
+  padding: 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+/* lista de nums */
+
+.list_num{
+  width: 23%;
+  display: inline-block;
+  background: #F2F2F2;
+  margin: 5px;
+  font-size: 13px;
+  border: 1px solid #A4A4A4;
+}
+
+.list_num .reservar button {
+  text-transform: uppercase;
+  background: #4CAF50;
+  border: 0;
+  width: 90%;
+  margin: 2px;
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.list_num .reservar button:hover{
+  background: #43A047
+}
+
+
+.list_num h3{
+  color: #0B0B61;
+  font-weight: bold;
+  background: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+
+/* instruções */
+
+.cont_instrucoes{
+  width: 100%;
+  display: flex;
+}
+
+.instrucoes{
+  width: 250px;/* 18% */
+  height: 250px;
+  padding: 5px;
+  margin: 5px;
+  background: #f5f5f0;
+  display: inline-block;
+}
+
+.img_instrucoes{
+  margin-top: 5px;
+  width: 170px;
+  height: 145px;
+}
+
+.instrucoes h2{
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.instrucoes h5{
+  margin: 0;
+  font-size: 14px;
+  padding: 0 3px;
+}
+
+
+
+/* pagamentos */
+
+.cont_pg, .cont_pg h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.met_pg{
+  width: 190px;
+  height: 190px;
+  padding-top: 5px;
+  margin: 5px;
+  background: #FFFFFF;
+  display: inline-block;
+}
+.img_pg{
+  width: 180px;
+  height: 70px;
+}
+.met_pg h2{
+  font-size: 15px;
+  font-weight: bold;
+}
+.met_pg h5{
+  font-size: 12px;
+  padding: 0 3px;
+}
+.footer h1{
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+/* responsive */
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+.main, .content, .cont_rifas, .login-page, .cont_adm, .list_adm, .list_num{
+	width: 95%;
+	padding: 5px;
+	margin-top: 5%
+}
+
+/* RESPONSIVE INDEX */
+.img_rifa{
+  width: 90%;
+  height: 70%;
+}
+.cont_rifas h2{
+	font-size: 2.7em;
+}
+.cont_rifas h5{
+	font-size: 2.5em;
+}
+.content h1{
+	margin-top: 5%;
+	font-size: 4em;
+}
+.box_num{
+	font-size: 1.7em;
+	padding: 15px;
+	margin: 5px;
+}
+.cont_rifas .reservar button{
+	font-size: 2.5em;
+}
+
+/* RESPONSIVE PAGE ADM */
+
+.list_num{
+	font-size: 0.7em;
+}
+ .list_num .reservar button{
+	font-size: 0.9em;
+}
+.list_num h3{
+	font-size: 1.3em;
+}
+.cont_adm h1{
+	font-size: 3.5em;
+}
+.cont_adm .lista button{
+	font-size: 2em;
+	padding: 20px;
+	width: 90%;
+}
+.cont_adm .list_adm{
+	font-size: 2em;
+	width: 85%;
+	margin: 15px;
+	border: 2px solid #A4A4A4;
+}
+.list_adm h3{
+ 	font-size: 1.2em;
+}
+.cont_adm .list_num{
+	width: 85%;
+	font-size: 2em;
+	margin: 2%;
+}
+.list_num .reservar{
+	font-size: 1.2em;
+}
+.list_num{
+	border: 2px solid #A4A4A4;
+}
+.list_num h3{
+	font-size: 1.3em;
+}
+
+
+/* RESPONSIVE PAG RIFAS */
+
+.btn_legend a.legend{
+	margin: 7px;
+	width: 47%;
+	padding: 10px;
+	font-size: 1.7em;
+}
+.cont_rifa h5{
+	font-size: 1.2em;
+}
+.cont_rifa h1{
+	font-size: 2em;
+}
+.cont_rifa, .carousel{
+	font-size: 2em;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.w3-image{
+	width: 85%;
+}
+.box_btn_reserved a{
+	font-size: 2.5em;
+}
+.rifa_table a.rifa_number{
+	font-size: 2.2em;
+	padding: 20px;
+}
+
+/* RESPONSIVE LOGIN/REGISTER */
+
+.login-page, .login-form, .register-form{
+	padding: 10px;
+}
+.login-form h2, .register-form h2{
+	font-size: 3.5em;
+}
+.login-form input, .register-form input{
+	font-size: 2em;
+}
+.login-form button, .register-form button{
+	font-size: 2em;
+}
+.register p{
+	font-size: 1.7em;
+}
+
+/* RESPONSIVE INSTRUÇOES */
+
+
+.cont_instrucoes{
+  width: 100%;
+  justify-content: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.instrucoes{
+  justify-content: center;
+  width: 70%;
+  height: 50%;
+  padding: 5px;
+  margin: 10px;
+  background: #f5f5f0;
+}
+
+.img_instrucoes{
+  margin-top: 10px;
+  width: 70%;
+  height: 50%;
+}
+
+.instrucoes h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+.instrucoes h5{
+  font-size: 2.5em;
+  padding: 0 3px;
+}
+
+
+
+/* RESPONSIVE PAGAMENTOS */
+
+.cont_pg, .cont_pg h1{
+  width: 100%;
+  justify-content: center;
+  display: block;
+
+}
+
+.met_pg{
+  width: 70%;
+  height: 70%;
+  padding-top: 5px;
+  margin: 10px;
+  background: #FFFFFF;
+}
+
+.img_pg{
+  width: 70%;
+  height: 30%;
+  margin-top: 1%;
+}
+
+.met_pg h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+.met_pg h5{
+  font-size: 2.3em;
+  padding: 0 3px;
+}
+
+.footer h1{
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.footer p{
+  font-size: 2.2em;
+}
+
+}
+
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.main, .content, .cont_rifas, .login-page, .cont_adm, .list_adm, .list_num{
+	width: 95%;
+	padding: 5px;
+	margin-top: 5%
+}
+
+/* RESPONSIVE INDEX */
+.img_rifa{
+  width: 90%;
+  height: 70%;
+}
+.cont_rifas h2{
+	font-size: 2.7em;
+}
+.cont_rifas h5{
+	font-size: 2.5em;
+}
+.content h1{
+	margin-top: 5%;
+	font-size: 4em;
+}
+.box_num{
+	font-size: 1.7em;
+	padding: 15px;
+	margin: 5px;
+}
+.cont_rifas .reservar button{
+	font-size: 2.5em;
+}
+
+/* RESPONSIVE PAGE ADM */
+
+.list_num{
+	font-size: 0.7em;
+}
+ .list_num .reservar button{
+	font-size: 0.9em;
+}
+.list_num h3{
+	font-size: 1.3em;
+}
+.cont_adm h1{
+	font-size: 3.5em;
+}
+.cont_adm .lista button{
+	font-size: 2em;
+	padding: 20px;
+	width: 90%;
+}
+.cont_adm .list_adm{
+	font-size: 2em;
+	width: 85%;
+	margin: 15px;
+	border: 2px solid #A4A4A4;
+}
+.list_adm h3{
+ 	font-size: 1.2em;
+}
+.cont_adm .list_num{
+	width: 85%;
+	font-size: 2em;
+	margin: 2%;
+}
+.list_num .reservar{
+	font-size: 1.2em;
+}
+.list_num{
+	border: 2px solid #A4A4A4;
+}
+.list_num h3{
+	font-size: 1.3em;
+}
+
+/* RESPONSIVE PAG RIFAS */
+
+.btn_legend a.legend{
+	margin: 7px;
+	width: 47%;
+	padding: 10px;
+	font-size: 1.7em;
+}
+.cont_rifa h5{
+	font-size: 1.2em;
+}
+.cont_rifa h1{
+	font-size: 2em;
+}
+.cont_rifa, .carousel{
+	font-size: 2em;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.w3-image{
+	width: 85%;
+}
+.box_btn_reserved a{
+	font-size: 2.5em;
+}
+.rifa_table a.rifa_number{
+	font-size: 2.2em;
+	padding: 20px;
+}
+
+/* RESPONSIVE LOGIN/REGISTER */
+
+.login-page, .login-form, .register-form{
+	padding: 10px;
+}
+.login-form h2, .register-form h2{
+	font-size: 3.5em;
+}
+.login-form input, .register-form input{
+	font-size: 2em;
+}
+.login-form button, .register-form button{
+	font-size: 2em;
+}
+.register p{
+	font-size: 1.7em;
+}
+
+/* RESPONSIVE INSTRUÇOES */
+
+
+.cont_instrucoes{
+  width: 100%;
+  justify-content: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.instrucoes{
+  justify-content: center;
+  width: 70%;
+  height: 50%;
+  padding: 5px;
+  margin: 10px;
+  background: #f5f5f0;
+}
+
+.img_instrucoes{
+  margin-top: 10px;
+  width: 70%;
+  height: 50%;
+}
+
+.instrucoes h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+.instrucoes h5{
+  font-size: 2.5em;
+  padding: 0 3px;
+}
+
+
+
+/* RESPONSIVE PAGAMENTOS */
+
+.cont_pg, .cont_pg h1{
+  width: 100%;
+  justify-content: center;
+  display: block;
+
+}
+
+.met_pg{
+  width: 70%;
+  height: 70%;
+  padding-top: 5px;
+  margin: 10px;
+  background: #FFFFFF;
+}
+
+.img_pg{
+  width: 70%;
+  height: 30%;
+  margin-top: 1%;
+}
+
+.met_pg h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+.met_pg h5{
+  font-size: 2.3em;
+  padding: 0 3px;
+}
+
+.footer h1{
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.footer p{
+  font-size: 2.2em;
+}
+
+}
+
+
+
+/*  Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.main, .content, .cont_rifas, .login-page, .cont_adm, .list_adm, .list_num, .cont_pg, .met_pg{
+	width: 95%;
+	padding: 5px;
+	margin-top: 5%
+}
+
+/* RESPONSIVE INDEX */
+.img_rifa{
+  width: 90%;
+  height: 70%;
+}
+.cont_rifas h2{
+	font-size: 2.7em;
+}
+.cont_rifas h5{
+	font-size: 2.5em;
+}
+.content h1{
+	margin-top: 5%;
+	font-size: 4em;
+}
+.box_num{
+	font-size: 1.7em;
+	padding: 15px;
+	margin: 5px;
+}
+.cont_rifas .reservar button{
+	font-size: 2.5em;
+}
+
+/* RESPONSIVE PAGE ADM */
+
+.list_num{
+	font-size: 0.7em;
+}
+ .list_num .reservar button{
+	font-size: 0.9em;
+}
+.list_num h3{
+	font-size: 1.3em;
+}
+.cont_adm h1{
+	font-size: 3.5em;
+}
+.cont_adm .lista button{
+	font-size: 2em;
+	padding: 20px;
+	width: 90%;
+}
+.cont_adm .list_adm{
+	font-size: 2em;
+	width: 85%;
+	margin: 15px;
+	border: 2px solid #A4A4A4;
+}
+.list_adm h3{
+ 	font-size: 1.2em;
+}
+.cont_adm .list_num{
+	width: 85%;
+	font-size: 2em;
+	margin: 2%;
+}
+.list_num .reservar{
+	font-size: 1.2em;
+}
+.list_num{
+	border: 2px solid #A4A4A4;
+}
+.list_num h3{
+	font-size: 1.3em;
+}
+.header_adm{
+  display: block;
+}
+.header_adm button{
+  border: 0;
+  width: 40%;
+  font-size: 2.5em;
+}
+
+
+/* RESPONSIVE PAG RIFAS */
+
+.btn_legend a.legend{
+	margin: 7px;
+	width: 47%;
+	padding: 10px;
+	font-size: 1.7em;
+}
+.cont_rifa h5{
+	font-size: 1.2em;
+}
+.cont_rifa h1{
+	font-size: 2em;
+}
+.cont_rifa, .carousel{
+	font-size: 2em;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.w3-image{
+	width: 85%;
+}
+.box_btn_reserved a{
+	font-size: 2.5em;
+}
+.rifa_table a.rifa_number{
+	font-size: 2.2em;
+	padding: 20px;
+}
+
+
+/* RESPONSIVE BTN REGULATION + PAGE REGULATION */
+
+.btn_regulamento{
+    margin-top: 20px;
+}
+.btn_regulamento a{
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.btn_regulamento a:hover{
+  background-color: #b3ff99;
+}
+
+.img_regulamento{
+  width: 40px;
+  height: 40px;
+}
+
+.regulation-page h2{
+  background-color: #F2F2F2;
+  font-size: 1.5em;
+  color: #0B0B61;
+  font-weight: bold;
+}
+
+.regulation-page {
+  width: 95%;
+  position: relative;
+  font-size: 2em;
+  z-index: 1;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.regulation-page button:hover {
+  background: #43A047;
+}
+
+.regulation-page button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 7px;
+  color: #FFFFFF;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+/* RESPONSIVE LOGIN/REGISTER */
+
+.login-page, .login-form, .register-form{
+	padding: 10px;
+}
+.login-form h2, .register-form h2{
+	font-size: 3.5em;
+}
+.login-form input, .register-form input{
+	font-size: 2em;
+}
+.login-form button, .register-form button{
+	font-size: 2em;
+}
+.register p{
+	font-size: 1.7em;
+}
+
+
+/* RESPONSIVE INSTRUÇOES */
+
+
+.cont_instrucoes{
+  width: 100%;
+  justify-content: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.instrucoes{
+  justify-content: center;
+  width: 70%;
+  height: 50%;
+  padding: 5px;
+  margin: 10px;
+  background: #f5f5f0;
+}
+
+.img_instrucoes{
+  margin-top: 10px;
+  width: 70%;
+  height: 50%;
+}
+
+.instrucoes h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+.instrucoes h5{
+  font-size: 2.5em;
+  padding: 0 3px;
+}
+
+
+
+/* RESPONSIVE PAGAMENTOS */
+
+.cont_pg, .cont_pg h1{
+  width: 100%;
+  justify-content: center;
+  display: block;
+
+}
+
+.met_pg{
+  width: 70%;
+  height: 70%;
+  padding-top: 5px;
+  margin: 10px;
+  background: #FFFFFF;
+}
+
+.img_pg{
+  width: 70%;
+  height: 30%;
+  margin-top: 1%;
+}
+
+.met_pg h2{
+  font-size: 3em;
+  font-weight: bold;
+}
+.met_pg h5{
+  font-size: 2.3em;
+  padding: 0 3px;
+}
+
+.footer h1{
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.footer p{
+  font-size: 2.2em;
+}
+
+}
